@@ -1,0 +1,1 @@
+./timelapse.sh [Interval between frames] [Amount of frames] [Framerate of final clip] [Name of clip]
