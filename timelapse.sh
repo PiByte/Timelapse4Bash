@@ -7,3 +7,6 @@ do
 done
 echo Timelapse complete! Rendering final clip
 ffmpeg -framerate $3 -i %d.png $4.mp4
+echo Cleaning up...
+rm *.png
+echo Done!
